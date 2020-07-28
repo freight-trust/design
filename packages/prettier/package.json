@@ -1,5 +1,5 @@
 {
-  "name": "prettier",
+  "name": "@fr8/prettier",
   "version": "0.0.1",
   "description": "pretteir config",
   "keywords": [
@@ -34,5 +34,6 @@
   },
   "devDependencies": {
     "prettier": "^2.0.5"
-  }
+  },
+  "gitHead": "740d1d04f5542c73acb3488a4ec77d8c1e818bc6"
 }
