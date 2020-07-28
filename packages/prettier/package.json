@@ -1,0 +1,38 @@
+{
+  "name": "prettier",
+  "version": "0.0.0",
+  "description": "pretteir config",
+  "keywords": [
+    "prettier",
+    "carbon",
+    "design"
+  ],
+  "author": "sam <sam@freighttrust.com>",
+  "homepage": "https://github.com/freight-trust/design",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freight-trust/design/packages/prettier"
+  },
+  "scripts": {
+    "prettierrc": "echo {}> .prettierrc.json",
+    "test": "echo \"try npx prettier --write .\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
